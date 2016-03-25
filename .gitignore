@@ -1,0 +1,7 @@
+.project
+.classpath
+.asscache
+.settings/
+target-eclipse/
+target/
+hs_err_pid*
