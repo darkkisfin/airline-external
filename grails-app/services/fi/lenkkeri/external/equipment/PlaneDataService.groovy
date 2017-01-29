@@ -36,4 +36,13 @@ class PlaneDataService {
 	{
 		return PlaneData.findBySerialNumber(serialNumber)
 	}
+/*
+	@WebMethod(operationName="findPlaneByNickname")
+	@WebResult(name="planeData")
+	List<PlaneData> findPlaneByNickname(@WebParam(name="nickname")String nickname)
+	{
+		return PlaneData.findByNickname(nickname)
+	}
+*/
 }
+
