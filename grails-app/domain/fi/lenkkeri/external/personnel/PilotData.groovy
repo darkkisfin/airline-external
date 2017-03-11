@@ -9,6 +9,8 @@ import javax.xml.bind.annotation.XmlElement
 @XmlAccessorType(XmlAccessType.NONE)
 class PilotData implements Serializable {
 	@XmlElement
+	Long id
+	@XmlElement
 	String firstName
 	@XmlElement
 	String lastName

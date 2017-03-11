@@ -69,7 +69,7 @@ class ApiController {
 	{
 		if(cmd.validate())
 		{
-			def returnable = [success:true, data:PilotData.findAllWhere(firstName:cmd.firstName, lastName:cmd.lastName)]
+			def returnable = [success:true, data:PilotData.findAllByFirstNameLikeAndLastNameLike("%"+cmd.firstName+"%", "%"+cmd.lastName+"%")]
 			respond returnable
 		}
 		else

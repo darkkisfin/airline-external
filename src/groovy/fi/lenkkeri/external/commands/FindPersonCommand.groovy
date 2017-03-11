@@ -8,7 +8,7 @@ class FindPersonCommand {
 	String lastName
 	
 	static constraints = {
-		firstName blank:false, size: 2..50, matches: "([A-Z])([a-z\\s]){2,49}"
-		lastName blank:false, size: 1..50, matches: "([A-Z])([a-z\\s]){0,49}"
+		firstName nullable:true
+		lastName nullable:true
 	}
 }

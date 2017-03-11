@@ -7,6 +7,5 @@ class FindPlaneCommand {
 	String serialNumber
 	
 	static constraints = {
-		serialNumber minSize: 25, maxSize: 25, matches: "[a-z0-9]{25}"
 	}
 }
