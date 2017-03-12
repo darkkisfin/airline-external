@@ -3,8 +3,8 @@ testDataConfig {
         'fi.lenkkeri.external.equipment.PlaneData' {
 			def random = new Random()
 			weight = {->1000+random.nextDouble()*99000}
-			length = {->1500+random.nextDouble()*99000}
-			width = {->1500+random.nextDouble()*99000}
+			length = {->1500+random.nextDouble()*98500}
+			width = {->1500+random.nextDouble()*98500}
 			crewRequired = {->1+random.nextInt(99)}
 			seatCount = {->1+random.nextInt(499)}
 			fuelCapacity = {->5000+random.nextDouble()*45000}
